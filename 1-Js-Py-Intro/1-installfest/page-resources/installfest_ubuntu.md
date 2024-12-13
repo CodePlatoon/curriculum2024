@@ -86,7 +86,7 @@ Test that you can run the commands `python3` and `pip3`. For `pip3` you will sim
 Python uses the concept of a 'virtual envrionment' to install packages through pip uniquely for a given project. In order to make creating such environments possible first install the necessary tool:
 
 ```bash
-sudo apt-get install python3.10-venv
+sudo apt-get install python3-venv
 ```
 
 While you can make virtual environments for a given project it is also wise to have a default virtual environment, which we will create now. Open a new terminal and ensure you are in the home folder (`~`) and then run:
