@@ -92,7 +92,7 @@ sudo apt-get install python3.10-venv
 While you can make virtual environments for a given project it is also wise to have a default virtual environment, which we will create now. Open a new terminal and ensure you are in the home folder (`~`) and then run:
 
 ```bash
-python3 -m venv default
+python3 -m venv test_project
 ```
 
 If it works this will create a new folder in your current directory called 'test_project'. Inside that folder we should see a bin folder holding an `activate` script, a `pip` script, and several others. Ensure both the `activate` and `pip` scripts are present. Do so with:
